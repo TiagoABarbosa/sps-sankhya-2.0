@@ -1,0 +1,122 @@
+Application {
+   themeColor: #307055;
+   background-color: #FFFFFF;
+}
+ApplicationControlBar, Panel, .popup {
+   borderStyle: solid;
+   borderColor: #003300;
+   borderAlpha: 1;
+   borderThickness: 1;
+   borderThicknessLeft: 4;
+   borderThicknessTop: 0;
+   borderThicknessBottom: 4;
+   borderThicknessRight: 4;
+   roundedBottomCorners: false;
+   cornerRadius: 7;
+   headerHeight: 25;
+   highlightAlphas: 0.18, 0;
+   headerColors: #85ab9b, #307055;
+   footerColors: #ffffff, #e6e6e6;
+   backgroundColor: #ffffff;
+   dropShadowEnabled: true;
+   shadowDistance: 1;
+   shadowDirection: center;
+   dropShadowColor: #000000;
+   titleStyleName: "mypanelTitle";
+}
+
+ApplicationControlBar {
+	rounded-bottom-corners: true;
+	fill-colors:#85ab9b, #307055;
+}
+
+.mypanelTitle {
+   color: #ffffff;
+   fontWeight: bold;
+}
+
+Alert {
+   borderStyle: solid;
+   borderColor: #003300;
+   borderAlpha: 1;
+   borderThickness: 1;
+   borderThicknessLeft: 4;
+   borderThicknessTop: 0;
+   borderThicknessBottom: 4;
+   borderThicknessRight: 4;
+   background-color:#FFFFFF;
+   color:#000000;
+}
+
+ControlBar {
+	padding-top:4;
+	paddingRight:4;
+	paddingBottom:4;
+	paddingLeft:4;
+}
+
+.headStep {
+	fontWeight:bold;
+	fontSize:12;
+}
+
+.alertaErro {
+	fontWeight:bold;
+	fontSize:11;
+	color:#CC0000;
+	textDecoration: underline;
+	paddingBottom: 0;
+	fontWeight: bold;
+	fontSize: 12;
+	rollOverColor: #ffffff; 
+	selectionColor: #ffffff;
+}
+.alertaInfo {
+	fontWeight:bold;
+	fontSize:11;
+	color:#008000;
+	textDecoration: underline;
+	paddingBottom: 0;
+	fontWeight: bold;
+	fontSize: 12;
+	rollOverColor: #ffffff; 
+	selectionColor: #ffffff;
+}
+.textDisable {
+	backgroundColor: #ffffff;
+	disabledColor: #000000;
+}
+
+/*
+//------------------------------
+//  Top Messages
+//------------------------------
+*/
+.fundoTopMessage{
+	borderStyle: applicationControlBar;
+    fill-colors: #FFFFFF, #EAEAEA;
+    fillAlphas: 0.95, 0.95;
+	highlightAlphas: 0, 0;
+    drop-shadow-enabled: true;
+    corner-radius: 10;
+}
+
+.styleTopMessageAlert{
+    background-colors: #FFCC00, #D7AC00;
+    corner-radius: 10;
+    border-sides: left top right;
+    border-alpha: 0;
+    border-thickness:0;
+    backgroundRatios:0,230;
+    color:#232323;
+}
+
+.styleTopMessageError{
+    background-colors: #D06464, #AE3333;
+    corner-radius: 10;
+    border-sides: left top right;
+    border-alpha: 0;
+    border-thickness:0;
+    backgroundRatios:0,230;
+    color:#FFFFFF;
+}

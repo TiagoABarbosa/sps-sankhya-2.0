@@ -1,0 +1,303 @@
+﻿SetupAppTitle=Programa de Instalação
+SetupWindowTitle=Programa de Instalação - {0}
+UninstallAppTitle=Programa de desinstalação
+UninstallAppFullTitle=Desinstalação de {0}
+InformationTitle=Informação
+ConfirmTitle=Confirmação
+ErrorTitle=Erro
+SetupLdrStartupMessage=Este programa irá instalar {0}. Pretende continuar?
+LdrCannotCreateTemp=Não foi possível criar um arquivo temporário. Instalação abortada
+LdrCannotExecTemp=Não foi possível executar um arquivo na pasta Temporária. Instalação abortada
+LastErrorMessage={0}.\n\nError {1}: {2}
+SetupFileMissing=O arquivo {0} não foi encontrado na pasta de instalação. Por favor, corrija o problema ou obtenha uma nova cópia do programa.
+SetupFileCorrupt=Os arquivos de instalação estão corrompidos. Por favor, obtenha uma nova cópia do programa
+SetupFileCorruptOrWrongVer=Os arquivos de instalação estão corrompidos, ou são incompatíveis com esta versão do Programa de Instalação. Por favor, corrija o problema ou obtenha uma nova cópia do programa.
+NotOnThisPlatform=Este programa não irá executar no {0}.
+OnlyOnThisPlatform=Este programa deve ser executado no {0}.
+WinVersionTooLowError=Este programa requer o {0} versão {1} ou superior.
+WinVersionTooHighError=Este programa não pode ser instalado no {0} versão {1} ou superior.
+AdminPrivilegesRequired=Precisa de privilégios de administrador para instalar este programa.
+PowerUserPrivilegesRequired=Precisa de privilégios de administrador ou super-utilizador para instalar este programa.
+SetupAppRunningError=O Programa de Instalação detectou que {0} está aberto.\n\nPor favor, feche o programa, e depois escolha OK para continuar, ou Cancelar para sair.
+UninstallAppRunningError=O Programa de Desinstalação detectou que {0} está aberto.\n\nPor favor, feche o programa, e depois escolha OK para continuar, ou Cancelar para sair.
+ErrorCreatingDir=O Programa de Instalação não pode criar a pasta "{0}"
+ErrorTooManyFilesInDir=Não foi possível criar um arquivo na pasta "{0}" porque ela contém demasiados arquivos
+ExitSetupTitle=Sair do Programa de Instalação
+ExitSetupMessage=A instalação não está completa. Se você sair agora, o programa não será instalado.\n\nPode executar o programa de instalação posteriormente para completar a instalação.\n\nSair do Programa de Instalação?
+AboutSetupMenuItem=Sobre o Programa de Instalação...
+AboutSetupTitle=Sobre o Programa de Instalação
+AboutSetupMessage={0} versão {1}\n{2}\n\n{0} Página Internet:\n{3}
+AboutSetupNote=
+ButtonBack=Voltar
+ButtonNext=Avançar
+ButtonInstall=Instalar
+ButtonOK=OK
+ButtonCancel=Cancelar
+ButtonYes=Sim
+ButtonYesToAll=Sim para Todos
+ButtonNo=Não
+ButtonNoToAll=Não para Todos
+ButtonFinish=Terminar
+ButtonBrowse=Procurar...
+ClickNext=Escolha "Avançar" para continuar ou "Cancelar" para sair da instalação.
+BeveledLabel=
+WelcomeLabel1=Bem-vindo ao Assistente de Instalação do {0}
+WelcomeLabel2=Este programa irá instalar o {0} no seu computador.\n\nÉ altamente recomendado que feche todos os programas abertos antes de continuar.
+WizardPassword=Palavra-Passe
+PasswordLabel1=Esta instalação está protegida por palavra-passe.
+PasswordLabel3=Por favor, introduza a palavra-passe, e escolha Avançar para continuar. As palavras-passe são sensíveis a Maiúsculas e minúsculas.
+PasswordEditLabel=Palavra-Passe:
+IncorrectPassword=A palavra-passe que introduziu não está correta. Por favor, tente novamente.
+WizardLicense=Contrato de Licença de Utilização
+LicenseLabel=Por favor leia as seguintes informações importantes antes de continuar.
+LicenseLabel3=Por favor, leia o Contrato de Licença de Utilização. Deve aceitar os termos deste contrato antes de continuar com a instalação.
+LicenseAccepted=Aceito as Condições de Utilização
+LicenseNotAccepted=Não aceito as condições de utilização
+WizardInfoBefore=Informações
+InfoBeforeLabel=Por favor, leia as seguintes informações importantes antes de continuar.
+InfoBeforeClickLabel=Quando estiver pronto para continuar com a instalação, escolha Avançar.
+WizardInfoAfter=Informação
+InfoAfterLabel=Por favor, leia as seguintes informações importantes antes de continuar.
+InfoAfterClickLabel=Quando estiver pronto para continuar com a instalação, escolha Avançar.
+WizardUserInfo=Informações do Utilizador:
+UserInfoDesc=Por favor, introduza as seguintes informações.
+UserInfoName=Nome:
+UserInfoOrg=Organização:
+UserInfoSerial=Número de Série:
+UserInfoNameRequired=Deve introduzir um nome.
+WizardSelectDir=Selecione a pasta de destino
+SelectDirDesc=Onde pretende instalar o {0}?
+SelectDirLabel=Selecione a pasta onde pretende que o {0} seja instalado, e depois escolha Avançar.
+DiskSpaceMBLabel=Este programa necessita de aproximadamente {0} MB de espaço no disco.
+ToUNCPathname=O Programa de Instalação não pode instalar num caminho UNC. Se você pretende instalar em rede, deve mapear a unidade de rede desejada.
+InvalidPath=Deve introduzir um caminho completo com a letra da unidade; por exemplo:\n\nC:\APP\n\nor um caminho UNC na forma:\n\n\\servidor\partilhado
+InvalidDrive=A unidade ou UNC partilhada que selecionou não existe ou não está acessivel. Por favor selecione outra.
+DiskSpaceWarningTitle=Não há espaço suficiente em disco.
+DiskSpaceWarning=O Programa de Instalação requer no mínimo {0} KB de espaço livre para instalar, mas a unidade selecionada dispõe somente de {1} KB disponíveis.\n\nPretende, mesmo assim, continuar?
+BadDirName32=O nome da pasta não pode conter nenhum dos seguintes caracteres:\n\n{0}
+DirExistsTitle=A pasta já existe
+DirExists=A pasta:\n\n{0}\n\njá existe. Pretende instalar nesta pasta?
+DirDoesntExistTitle=A pasta não existe.
+DirDoesntExist=A pasta:\n\n{0}\n\nnão existe. Deseja que a pasta seja criada?
+WizardSelectComponents=Selecione os Componentes
+SelectComponentsDesc=Que componentes deseja instalar?
+SelectComponentsLabel2=Selecione os componentes que deseja instalar; desmarque os componentes que não deseja instalar. Escolha Avançar quando estiver pronto para continuar.
+FullInstallation=Instalação Completa
+CompactInstallation=Instalação Compacta
+CustomInstallation=Instalação Personalizada
+NoUninstallWarningTitle=Componentes Encontrados
+NoUninstallWarning=O Programa de Instalação detectou que os seguintes componentes já estão instalados no seu computador:\n\n{0}\n\nDesmarcando estes componentes não os desinstalará.\n\nDeseja continuar?
+ComponentSize1={0} KB
+ComponentSize2={0} MB
+ComponentsDiskSpaceMBLabel=A actual selecção requer {0} MB de espaço em disco.
+WizardSelectTasks=Selecione as Tarefas Adicionais
+SelectTasksDesc=Que tarefas adicionais deseja que o Programa de Instalação execute?
+SelectTasksLabel2=Selecione as tarefas adicionais que deseja que o Programa de Instalação execute enquanto instala o {0}, e depois escolha Avançar.
+WizardSelectProgramGroup=Selecione a pasta no Menu Iniciar
+SelectStartMenuFolderDesc=Onde deve o Programa de Instalação colocar os atalhos do programa?
+SelectStartMenuFolderLabel=Selecione a pasta do Menu Iniciar onde o Programa de Instalação deve criar os atalhos do programa, e depois escolha Avançar.
+NoIconsCheck=Não criar nenhum ícone
+MustEnterGroupName=Deve introduzir o nome da pasta.
+BadGroupName=O nome da pasta não pode conter nenhum dos seguintes caracteres:\n\n{0}
+NoProgramGroupCheck2=Não criar nenhuma pasta no Menu Iniciar
+WizardReady=Pronto para Instalar
+ReadyLabel1=O Programa de Instalação está pronto para começar a instalação de {0} no seu computador.
+ReadyLabel2a=Escolha Instalar para começar a instalação, ou Voltar se pretende rever ou mudar as preferências.
+ReadyLabel2b=Escolha Instalar para começar a instalação.
+ReadyMemoUserInfo=Informações do Utilizador:
+ReadyMemoDir=Pasta Destino:
+ReadyMemoType=Tipo de Instalação:
+ReadyMemoComponents=Componentes Escolhidos:
+ReadyMemoGroup=Pasta no Menu Iniciar:
+ReadyMemoTasks=Tarefas adicionais:
+WizardPreparing=A preparar a Instalação
+PreparingDesc=O Programa de Instalação está a preparar a Instalação de {0} no seu computador.
+PreviousInstallNotCompleted=A instalação/remoção de um programa anterior não foi completada. Necessita de reiniciar o seu computador para completar a instalação.\n\nApós reiniciar o computador, execute o programa de instalação novamente para completar a instalação de {0}.
+CannotContinue=A instalação não pode continuar. Por favor, escolha "Cancelar" para sair.
+WizardInstalling=Instalando
+InstallingLabel=Aguarde enquanto o {0} é instalado no seu computador.
+FinishedHeadingLabel=A completar a instalação de {0}
+FinishedLabelNoIcons=O Programa de Instalação concluiu a instalação de {0} no seu computador.
+FinishedLabel=O programa de instalação concluiu a instalação de {0} no seu computador. O programa pode ser iniciado através ícones criados.
+ClickFinish=Escolha Terminar para fechar o Programa de Instalação.
+FinishedRestartLabel=Para completar a instalação de {0}, o Programa de Instalação necessita de reiniciar o seu computador. Deseja reiniciar agora?
+FinishedRestartMessage=Para completar a instalação de {0}, o Programa de Instalação necessita de reiniciar o seu computador.\n\nDeseja reiniciar agora?
+ShowReadmeCheck=Sim, eu quero ler o arquivo LEIAME
+YesRadio=Sim, reiniciar o computador agora
+NoRadio=Não, eu reiniciarei o computador mais tarde
+RunEntryExec=Executar {0}
+RunEntryShellExec=Visualizar {0}
+ChangeDiskTitle=O Programa de Instalação precisa do próximo disco
+SelectDirectory=Escolha a Pasta
+SelectDiskLabel2=Por favor, introduza o disco {0} e escolha "OK".\n\nSe os arquivos desse disco estiverem numa outra pasta, introduza o caminho correto ou escolha Procurar.
+PathLabel=Caminho:
+FileNotInDir2=O arquivo "{0}" não pôde ser encontrado em "{1}". Por favor, insira o disco correto ou selecione outra pasta.
+SelectDirectoryLabel=Por favor indique a localização do próximo disco.
+SetupAborted=A instalação não foi completada.\n\nPor favor, corrija o problema e execute o Programa de Instalação novamente.
+EntryAbortRetryIgnore=Escolha Repetir para tentar novamente, Ignorar para continuar, ou Anular para cancelar a instalação.
+StatusCreateDirs=A criar pastas...
+StatusExtractFiles=Extraindo arquivos...
+StatusCreateIcons=Criando ícones...
+StatusCreateIniEntries=Criando entradas nos arquivos INI...
+StatusCreateRegistryEntries=Criando entradas no registo do Windows...
+StatusRegisterFiles=Registrando arquivos...
+StatusSavingUninstall=Guardando informação para desinstalação...
+StatusRunProgram=Concluindo a instalação...
+StatusRollback=Desfazendo alterações...
+ErrorInternal2=Erro interno: {0}
+ErrorFunctionFailedNoCode={0} falhou
+ErrorFunctionFailed={0} falhou; código {1}
+ErrorFunctionFailedWithMessage={0} falhou; código {1}.\n{2}
+ErrorExecutingProgram=Impossível de executar o arquivo:\n{0}
+ErrorRegOpenKey=Erro ao abrir a chave de registo:\n{0}\{1}
+ErrorRegCreateKey=Erro ao criar chave de registo:\n{0}\{1}
+ErrorRegWriteKey=Erro ao escrever para a chave de registo:\n{0}\{1}
+ErrorIniEntry=Erro ao criar entradas INI no arquivo "{0}".
+FileAbortRetryIgnore=Escolha Repetir para tentar novamente, Ignorar para ignorar este arquivo (não recomendável), ou Anular para cancelar a instalação.
+FileAbortRetryIgnore2=Escolha Repetir para tentar novamente, Ignorar para continuar (não recomendável), ou Anular para cancelar a instalação.
+SourceIsCorrupted=O arquivo de origem está corrompido
+SourceDoesntExist=O arquivo de origem "{0}" não existe
+ExistingFileReadOnly=O arquivo existente está marcado como somente de leitura.\n\nEscolha Repetir para remover o atributo de somente leitura e tentar novamente, Ignorar para continuar, ou Anular para cancelar a instalação.
+ErrorReadingExistingDest=Ocorreu um erro ao tentar ler o arquivo existente:
+FileExists=O arquivo já existe.\n\nDeseja que o Programa de Instalação o substitua?
+ExistingFileNewer=O arquivo existente no seu computador é mais novo do que aquele que o Programa de Instalação pretende instalar. É recomendado que mantenha o arquivo existente.\n\nDeseja manter o arquivo existente?
+ErrorChangingAttr=Ocorreu um erro ao tentar mudar os atributos do arquivo existente:
+ErrorCreatingTemp=Ocorreu um erro ao tentar criar um arquivo na pasta destino:
+ErrorReadingSource=Ocorreu um erro ao tentar ler o arquivo fonte:
+ErrorCopying=Ocorreu um erro ao tentar copiar um arquivo:
+ErrorReplacingExistingFile=Ocorreu um erro ao tentar substituir um arquivo existente:
+ErrorRestartReplace=Tentativa de substituição falhou:
+ErrorRenamingTemp=Ocorreu um erro ao tentar renomear um arquivo na pasta destino:
+ErrorRegisterServer=Não foi possível registar o DLL/OCX: {0}
+ErrorRegisterServerMissingExport=Função de exportação DllRegisterServer não foi encontrada
+ErrorRegisterTypeLib=Não foi possível registar a biblioteca de tipos: {0}
+ErrorOpeningReadme=Ocorreu um erro ao tentar abrir o arquivo LEIAME.
+ErrorRestartingComputer=O Programa de Instalação não conseguiu reiniciar o computador. Por favor, reinicie manualmente.
+UninstallNotFound=O arquivo "{0}" não existe. Não é possível desinstalar.
+UninstallUnsupportedVer=O arquivo de log de desinstação "{0}" está num formato não reconhecido por esta versão do desinstalador. Não é possível desinstalar
+UninstallUnknownEntry=Uma entrada desconhecida ({0}) foi encontrada no log de desinstalação
+ConfirmUninstall=Tem a certeza que quer remover completamente {0} e todos os seus componentes?
+OnlyAdminCanUninstall=Esta instalação só pode ser desinstalada por um utilizador com privilégios administrativos.
+UninstallStatusLabel=Por favor, aguarde enquanto {0} é removido do seu computador.
+UninstalledAll={0} foi removido com sucesso do seu computador.
+UninstalledMost=A desinstalação de {0} terminou.\n\nAlguns elementos não puderam ser removidos. Estes elementos podem ser removidos manualmente.
+UninstalledAndNeedsRestart=Para completar a desinstalação de {0}, o seu computador precisa de ser reiniciado.\n\nDeseja reiniciar agora?
+UninstallDataCorrupted=O arquivo "{0}" está corrompido. Não pode desinstalar
+ConfirmDeleteSharedFileTitle=Remover arquivo partilhado?
+ConfirmDeleteSharedFile2=O sistema indica que o seguinte arquivo partilhado não é usado por nenhum outro programa. Pretende remover este arquivo partilhado?\n\nSe outro programa usar este arquivo e ele for removido, esse programa pode não funcionar corretamente. Se não tiver certeza, escolha Não. Manter o arquivo no computador não causa quaisquer danos.
+SharedFileNameLabel=Nome do arquivo:
+SharedFileLocationLabel=Localização:
+WizardUninstalling=Progresso da Desinstalação
+StatusUninstalling=Desinstalando {0}...
+MustEnterDirectory=Deve introduzir uma pasta destino.
+InvalidDirectory=A pasta:\n\n{0}\n\nnão é válida.
+CreateDesktopIcon=Criar um ícone para o Ambiente de Trabalho
+CreateQuickLaunchIcon=Criar um ícone Acesso rápido
+CreateIconsGroup=Ícones suplementares:
+PrepareCancel=A preparar para cancelar ...
+MustEnterDirectory=Deve introduzir uma pasta destino.
+InvalidDirectory=A pasta:\n\n{0}\n\nnão é válida.
+CreateQuickLaunchIcon=Criar um ícone Acesso rápido
+CreateIconsGroup=Ícones suplementares:
+PrepareCancel=A preparar para cancelar ...
+# {0} is the application that is uninstalled
+UninstallerMenuEntry={0} Desinstalador
+# {0} is a file name
+AskRetryInstallFile={0}\nNão foi possível criar este arquivo. Devo tentar novamente?
+WindowsServicesTitle=Serviços do Windows
+WindowsServicesSubtitle=Por favor selecione os detalhes sobre a forma como os serviços devem ser instalados.
+# {0} is the name of the Windows service
+WindowsServiceInstallCheckbox=Instalar o serviço "{0}"
+WindowsServiceStartOnBootupCheckbox=Iniciar arranque
+UnixDaemonsTitle=Daemons
+# {0} is the name of the application
+UnixDaemonsSubTitle=Lembre-se dos daemons que são fornecidos por {0}.
+# {0} is the name of the Unix daemon
+UnixDaemonStartStopScriptLabel=Script Iniciar/Stop para daemon "{0}":
+MacosStartupItemsTitle=Ítens de arranque
+MacosStartupItemsSubTitle=Por favor, selecione os detalhes sobre a forma como os itens de arranque devem ser instalados.
+# {0} is the name of the Mac OS X startup item
+MacosStartupItemInstallCheckbox=Instalar item de arranque "{0}"
+# {0} is the name of the service
+ErrorInstallService=Não foi possível instalar o serviço "{0}"
+# {0} is the name of the service
+ErrorUninstallService=Não foi possível desinstalar o serviço "{0}"
+ErrorInstallIcons=Não foi possível instalar os ícones.
+# {0} is a version number, {1} is an application name
+AppleJavaMinVersionError=Necessita no mínimo uma máquina virtual Java {0} para instalar {1}.\nPor favor efectue o download do seguinte endereço http://www.apple.com
+# {0} is a file name
+AskContinue=Não foi possível instalar o arquivo \n{0}\nPretende continuar a instalação?
+UninstallFailureTitle=Resultados do desinstalador
+# {0} is a an application name
+UninstallFailureSubTitle=Não foi possível desinstalar todos os arquivos de {0} .
+UninstallFailureLabel=Não foi possível apagar os seguintes arquivos e pastas:
+# {0} is a an application name
+DownloadingJre={0} está a efectuar o download do ambiente de execução Java(TM). Por favor, aguarde.
+ErrorWininet=Não é possível reinicializar wininet.dll. Por favor, instale \nInternet Explorer 3.0 ou versão superior.
+DownloadJreError=Ocorreu um erro ao efectuar o download do ambiente de execução Java(TM).\nPor favor, verifique a sua ligação à Internet e inicie novamente a instalação.
+ChooseJavaExe=Por favor, selecione o arquivo "java.exe" do ambiente de execução Java (JRE)
+LocateOrDownloadJre=O assistente de instalação4j não encontrou um ambiente de execução Java(TM) no seu sistema. É possível localizar ou efectuar o download de um ambiente de execução Java (JRE) adequado.
+LocateJre=O assistente de instalação4j não encontrou um ambiente de execução Java(TM) no sistema do utilizador. Por favor, localize um ambiente de execução Java (JRE) adequado.
+# {0} is a an application name
+PrepareInstaller={0} está a preparar o assistente de instalação4j que deverá guiá-lo através do restante processo de instalação.
+InitConnection=A inicializar a ligação ...
+# {0} is the amount downloaded so far, {1} is the total size of the file, {3} is the download speed, measured in kb/s
+DownloadProgress="{0} MB de {1} MB ({2}%) à velocidade de {3} kb/s"
+ButtonDownload=Download
+ButtonLocate=Localizar
+WizardCaption=Assistente de instalação4j
+
+
+
+
+
+
+SetupAppTitle=Instalar
+
+JvmStartError=O ambiente de execução Java(TM) VM não pode ser iniciado. Por favor, recomece\na instalação.Pode utilizar o parâmetro "/manual"\npara efectuar o download ou pode selecionar manualmente uma VM diferente.
+
+NoDirNameWithSpace=O nome da pasta não pode conter espaços.
+
+ConfirmReboot=Para completar a instalação precisa de reiniciar o seu computador. Deseja reiniciar agora?
+
+ProgramGroupAllUsers=Crie atalhos para todos os utilizadores.
+
+# {0} is a the application name
+
+FinishedLabelUnix=O programa de instalação concluiu a instalação {0} no seu computador. Pode abrir a aplicação executando os scripts iniciar instalados.
+
+WizardSelectLinkDir=Selecione a pasta para osSymlinks
+
+SelectLinkDirDesc=Onde pretende {0} criar os symlinks para os arquivos executáveis?
+
+NoSymlinksCheck=Não crie symlinks.
+
+SelectLinkDirLabel=Selecione a pasta onde deseja {0} criar symlinks, depois clique em Avançar.
+
+LastRunFailed=O instalador não foi iniciado correctamente da última vez que correu o programa.\nIsto deve-se provavelmente a um Java VM que está corrompido.\nDeseja efectuar o download ou deseja selecionar manualmente o JVM?
+
+WizardSelectAssociations=Selecione as associações de arquivos
+
+SelectAssociationsDesc=Que associações de arquivos deverão ser criadas?
+
+SelectAssociationsLabel=Selecione a associação de arquivos que deseja criar; desmarque as associações de arquivos que não deseja criar. Quando estiver pronto para continuar, clique em avançar.
+
+LocateBrowerExecutable=Por favor, localize o arquivo executável para a sua ligação à Internet.
+
+ErrorStartingBrowser=Ocorreu um erro ao iniciar a ligação.
+
+NoWritePermissions=Não está autorizado a escrever nesta pasta. Por favor, escolha outra.
+
+LocateOrDownloadJre2=O assistente de instalação4j não encontrou um ambiente de execução Java(TM) no seu sistema. É possível localizar ou efectuar o download de um ambiente de execução Java (JRE) adequado. (versão mínima: {0}, versão superior: {1})
+
+LocateJre2=O assistente de instalação4j não encontrou um ambiente de execução Java(TM) no seu sistema. Por favor, localize um ambiente de execução Java (JRE) adequado (versão mínima: {0}, versão superior: {1})
+
+EnterPassword=Por favor, introduza a sua palavra-passe:
+
+AdminGroupRequired=Deve ser membro do grupo de administradores.
+
+EnterPasswordTitle=Introduza a palavra-passe.
+
+WrongPassword=A palavra-passe que introduziu não está correcta. Por favor, tente novamente.
+
+FileCorrupted=O arquivo de instalação está corrompido. Se for um arquivo de um download, por favor tente novamente.

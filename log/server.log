@@ -1,0 +1,54 @@
+2021-11-10 11:22:37,566 [INFO] [main-] (WebConsole.java:46) [init] - Iniciando threads do servidor http
+2021-11-10 11:22:37,567 [INFO] [main-] (WebConsole.java:51) [init] - HttpServer iniciado
+2021-11-10 11:22:37,567 [INFO] [WebConsole-] (HttpServer.java:105) [run] - Aguardando na porta: 9091
+2021-11-10 11:22:37,567 [INFO] [main-] (WebConsole.java:53) [init] - Iniciando threads do PrintServer
+2021-11-10 11:22:37,568 [INFO] [main-] (WebConsole.java:58) [init] - PrintServer iniciado
+2021-11-10 11:22:37,568 [INFO] [main-] (PrintServiceMain.java:203) [initWebConsole] - Console web iniciado
+2021-11-10 11:22:37,568 [INFO] [main-] (PrintServiceMain.java:187) [initAdminUser] - Iniciando usuário admin
+2021-11-10 11:22:37,570 [INFO] [main-] (UserRepository.java:57) [initAdminUser] - Usuário administrador já existe
+2021-11-10 11:22:37,571 [INFO] [main-] (PrintServiceMain.java:190) [initAdminUser] - Usuário admin iniciado
+2021-11-10 11:22:37,571 [INFO] [main-] (PrintServiceMain.java:174) [initPrinterQueueManager] - Iniciando o gerenciador de filas de impressão
+2021-11-10 11:22:37,572 [DEBUG] [pool-1-thread-1-] (JobConsumer.java:78) [print] - Consumidor: CutePDF Writer
+2021-11-10 11:22:37,573 [INFO] [main-] (PrintServiceMain.java:177) [initPrinterQueueManager] - Gerenciador de filas de impressão iniciado
+2021-11-10 11:22:37,573 [DEBUG] [pool-1-thread-3-] (JobConsumer.java:78) [print] - Consumidor: Microsoft XPS Document Writer
+2021-11-10 11:22:37,572 [DEBUG] [pool-1-thread-2-] (JobConsumer.java:78) [print] - Consumidor: Generic / Text Only
+2021-11-10 11:22:37,573 [INFO] [main-] (PrintServiceMain.java:161) [initScheduledTasksManager] - Iniciando gerenciador de tarefas agendadas
+2021-11-10 11:22:37,573 [DEBUG] [pool-1-thread-5-] (JobConsumer.java:78) [print] - Consumidor: Microsoft Print to PDF
+2021-11-10 11:22:37,573 [DEBUG] [pool-1-thread-4-] (JobConsumer.java:78) [print] - Consumidor: Fax
+2021-11-10 11:22:37,578 [INFO] [main-] (PrintServiceMain.java:164) [initScheduledTasksManager] - Gerenciador de tarefas agendadas iniciado
+2021-11-10 11:22:37,578 [DEBUG] [pool-2-thread-2-] (DeleteoldJobsTask.java:23) [run] - Eliminando jobs antigos
+2021-11-10 11:22:37,578 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:24) [run] - Renovando apikeys
+2021-11-10 11:22:37,578 [INFO] [main-] (PrintServiceMain.java:230) [checkUnknownJobs] - Iniciando tratamento de jobs com status desconhecido
+2021-11-10 11:22:37,578 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:119) [renewApiKeys] - Deletando ApiKeys antigas
+2021-11-10 11:22:37,598 [INFO] [main-] (PrintServiceMain.java:233) [checkUnknownJobs] - Tratamento de jobs com status desconhecido foi finalizado
+2021-11-10 11:22:37,598 [INFO] [main-] (PrintServiceMain.java:259) [initSystemTrayMenu] - Iniciando o menu da system tray
+2021-11-10 11:22:37,603 [DEBUG] [pool-2-thread-2-] (DeleteoldJobsTask.java:25) [run] - Jobs antigos eliminados
+2021-11-10 11:22:37,662 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:123) [renewApiKeys] - Criando uma nova ApiKey
+2021-11-10 11:22:37,681 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:126) [renewApiKeys] - ApiKey criada
+2021-11-10 11:22:37,681 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:26) [run] - ApiKeys renovadas
+2021-11-10 11:22:37,742 [INFO] [main-] (PrintServiceMain.java:262) [initSystemTrayMenu] - Menu da system tray iniciado
+2021-11-10 11:22:37,743 [INFO] [main-] (PrintServiceMain.java:318) [startJobsCollector] - Iniciando o coletor de Jobs
+2021-11-10 11:22:37,745 [INFO] [main-] (PrintServiceMain.java:321) [startJobsCollector] - Coletor de Jobs iniciado com sucesso
+2021-11-10 11:22:37,745 [INFO] [main-] (PrintServiceMain.java:84) [main] - Servidor de impressão iniciado
+2021-11-10 11:22:37,745 [INFO] [Timer-0-] (JobRepository.java:193) [removeDisposeJobs] - Buscando por Jobs descartáveis...
+2021-11-10 11:22:37,746 [INFO] [Timer-0-] (JobRepository.java:213) [removeDisposeJobs] - 0 Jobs descartados com sucesso!
+2021-11-10 11:23:37,694 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:24) [run] - Renovando apikeys
+2021-11-10 11:23:37,694 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:119) [renewApiKeys] - Deletando ApiKeys antigas
+2021-11-10 11:23:37,697 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:123) [renewApiKeys] - Criando uma nova ApiKey
+2021-11-10 11:23:37,697 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:126) [renewApiKeys] - ApiKey criada
+2021-11-10 11:23:37,697 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:26) [run] - ApiKeys renovadas
+2021-11-10 11:24:37,709 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:24) [run] - Renovando apikeys
+2021-11-10 11:24:37,709 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:119) [renewApiKeys] - Deletando ApiKeys antigas
+2021-11-10 11:24:37,710 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:123) [renewApiKeys] - Criando uma nova ApiKey
+2021-11-10 11:24:37,710 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:126) [renewApiKeys] - ApiKey criada
+2021-11-10 11:24:37,710 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:26) [run] - ApiKeys renovadas
+2021-11-10 11:25:37,718 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:24) [run] - Renovando apikeys
+2021-11-10 11:25:37,718 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:119) [renewApiKeys] - Deletando ApiKeys antigas
+2021-11-10 11:25:37,718 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:123) [renewApiKeys] - Criando uma nova ApiKey
+2021-11-10 11:25:37,719 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:126) [renewApiKeys] - ApiKey criada
+2021-11-10 11:25:37,719 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:26) [run] - ApiKeys renovadas
+2021-11-10 11:26:37,732 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:24) [run] - Renovando apikeys
+2021-11-10 11:26:37,732 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:119) [renewApiKeys] - Deletando ApiKeys antigas
+2021-11-10 11:26:37,732 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:123) [renewApiKeys] - Criando uma nova ApiKey
+2021-11-10 11:26:37,733 [DEBUG] [pool-2-thread-1-] (AuthenticationService.java:126) [renewApiKeys] - ApiKey criada
+2021-11-10 11:26:37,733 [DEBUG] [pool-2-thread-1-] (RenewApiKeysTask.java:26) [run] - ApiKeys renovadas
